@@ -17,7 +17,7 @@ export default function Header() {
             <li>resume</li>
           </ul>
         </div>
-        <button className="button h-button">contact me</button>
+        <button className="button h-button">contact </button>
       </div>
     </div>
   );

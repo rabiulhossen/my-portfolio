@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
+import Services from './components/Services/Services';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
 <Header />
 <Intro />
+<Services />
 
     </div>
   );

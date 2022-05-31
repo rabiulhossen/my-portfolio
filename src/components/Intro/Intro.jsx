@@ -11,7 +11,7 @@ export default function Intro() {
     <div className='intro'>
 <div className="intro-left">
 <div className="i-name">
-     <span>Hey guys!</span>
+     <span>Hey! I Am</span>
      <span>Rabiul  Hossen</span>
      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus saepe, aperiam velit nisi eius distinctio dolor dicta itaque temporibus illum voluptas perspiciatis sunt quam natus autem, tenetur beatae dolore. Veniam?</span>
 </div>
