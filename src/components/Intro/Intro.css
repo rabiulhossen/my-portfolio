@@ -1,31 +1,71 @@
-.intro{
+.intro {
+  display: flex;
+  height: 77vh;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+.intro-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 2rem;
+}
+
+.i-name {
+  display: flex;
+  flex-direction: column;
+}
+.i-name > :nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 3rem;
+}
+.i-name > :nth-child(2) {
+  color: var(--orange);
+  font-size: 3rem;
+  font-weight: bold;
+}
+.i-name > :nth-child(3) {
+  font-weight: 200;
+  font-size: 15px;
+  margin-top: 10px;
+  color: var(--gray);
+}
+
+.intro-right {
+  flex: 1;
+  position: relative;
+  
+}
+
+.intro-right>* {
+  flex: 1;
+  position: absolute;
+  z-index: 1;
+
+}
+
+.intro-right>:nth-child(1){
+     transform: scale(0.7);
+     left: -15%;
+     top: -10%;
+}
+.i-button {
+  width: 8rem;
+  height: 3rem;
+  font-weight: 600;
+}
+.social-icons{
+     margin: 3rem;
      display: flex;
-     height: 77vh;
-     margin-top: 4rem;
+    gap: 2rem;
 }
-.intro-left{
-     display: flex;
-     position: relative;
-     flex:1;
-flex-direction: column;
-gap: 2rem;
-
-
-
-
+.social-icons>*{
+     transform: scale(0.7);
 }
-
-.i-name{
-     display: flex;
-     flex-direction: column;
-}
-.i-name>:nth-child(1){
-
-color: var(--black);
-font-weight: bold;
-font-size: 3rem;
-
-}
-.intro-right{
-     flex: 1;
+.social-icons>*:hover{
+     cursor: pointer
+     ;
 }
