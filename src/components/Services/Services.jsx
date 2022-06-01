@@ -15,15 +15,15 @@ export default function Services() {
         </span>
 
         <button className="button s-button">Download CV</button>
-        <div className="blur" style={{ backgroundColor: "" }}></div>
+        <div className="blur"></div>
       </div>
-      <div className="card" style={{ left: "17rem" }}>
+      <div className="card" style={{ left: "21rem",top:'-1rem' }}>
         <Card pic={insta} heading={"Design"} detail={"Figma,Photoshop"} />
       </div>
-      <div className="card" style={{ top: "15rem", left: "-9rem" }}>
+      <div className="card" style={{ top: "11rem", left: "-11rem" }}>
         <Card pic={insta} heading={"Design"} detail={"Figma,Photoshop"} />
       </div>
-      <div className="card" style={{ left: "-5rem", top: "29rem" }}>
+      <div className="card" style={{ left: "-11rem", top: "22rem" }}>
         <Card pic={insta} heading={"Design"} detail={"Figma,Photoshop"} />
       </div>
     </div>

@@ -3,7 +3,7 @@
      width: 29rem;
      height: 14rem;
      border-radius: 50%;
-     background: #ddbdef;
+     background: #bde1ef;
      filter: blur(212px);
      z-index: -9;
      top: -18%;
@@ -16,6 +16,7 @@
         display: flex;
         height: 90vh;
         margin-top: 8rem;
+        justify-content: space-around;
         margin-bottom: 10rem;
    }
 .left-ser{
@@ -49,6 +50,8 @@
      font-weight: 600;
      margin-top: 1.5rem;
 }
-
+.card{
+     border: 5px,solid,orange;
+}
 
 
