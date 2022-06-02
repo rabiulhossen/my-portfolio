@@ -2,6 +2,7 @@ import React from "react";
 import "./Works.css";
 import github from "../../images/github.png";
 import insta from "../../images/instagram.png";
+import fb from "../../images/529-removebg-preview.png";
 
 export default function Works() {
   return (
@@ -38,9 +39,14 @@ export default function Works() {
           <div className="sec-circle">
             <img src={github} alt="" />
           </div>
+
+          <div className="sec-circle">
+            <img src={fb} style=
+            {{width:"70px"}} alt="" />
+          </div>
         </div>
-        <div className="back-circle"></div>
-        <div className="back-circle"></div>
+        <div className="back-circle blueC"></div>
+        <div className="back-circle yellowC"></div>
       </div>
     </div>
   );

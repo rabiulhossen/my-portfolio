@@ -26,7 +26,7 @@ export default function Intro() {
 </div>
 <div className="intro-right"></div>
 
-<img src={bg} alt="" />
+<img src={bg} style={{width:'44rem',height:'32rem'}} alt="" />
 
 
     </div>
