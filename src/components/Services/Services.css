@@ -3,7 +3,7 @@
      width: 29rem;
      height: 14rem;
      border-radius: 50%;
-     background: #bde1ef;
+     background: #b2cbd4;
      filter: blur(212px);
      z-index: -9;
      top: -18%;
@@ -51,7 +51,10 @@
      margin-top: 1.5rem;
 }
 .card{
-     border: 5px,solid,orange;
+     -webkit-border-radius: 33px;
+border-radius: 33px;
+background: #7ee6d8;
+-webkit-box-shadow: 14px 14px 23px #88e7db, -14px -14px 23px #c6ebeb;
+box-shadow: 14px 14px 23px #19574e, -14px -14px 23px #e1eeee;
+
 }
-
-

@@ -10,11 +10,14 @@
      color: var(--yellow);
      font-size: 2.7rem;
      font-weight: 700;
+     margin-left: 1rem;
  }
  .awesome>span:nth-child(3){
      color: var(--black);
      font-size: 2rem;
      font-weight: 600;
+     margin-left: 1rem;
+
  }
  
  .c-right{
