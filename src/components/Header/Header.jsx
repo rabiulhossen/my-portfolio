@@ -1,4 +1,5 @@
 import React from "react";
+import Toggle from "../toggle/Toggle";
 import "./Header.css";
 
 export default function Header() {
@@ -6,7 +7,7 @@ export default function Header() {
     <div className="h-wrapper">
       <div className="h-left">
         <div className="h-name">Rabiul</div>
-        <span>toggle</span>
+        <Toggle />
       </div>
       <div className="h-right">
         <div className="h-list">

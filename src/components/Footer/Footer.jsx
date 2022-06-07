@@ -6,16 +6,29 @@ import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Github from "@iconscout/react-unicons/icons/uil-github";
 import Fb from "@iconscout/react-unicons/icons/uil-facebook";
 import Twi from "@iconscout/react-unicons/icons/uil-twitter";
+import Wave from 'react-wavify'
+
 export default function Footer() {
   return (
     <div className="footer">
-      <div className="waves">
-        <div className="wave" id="wave"></div>
-        <div className="wave" id="wave2"></div>
-        <div className="wave" id="wave3"></div>
-        <div className="wave" id="wave4"></div>
-      </div>
-      <ul className="f-content">
+  <Wave fill="url(#gradient)"
+      options={{
+        height: 10,
+        amplitude: 50,
+        speed: 0.20,
+        points: 10
+      }}
+  >
+  <defs>
+    <linearGradient id="gradient" gradientTransform="rotate(90)">
+      <stop offset="10%"  stopColor="#92fe9d" />
+      <stop offset="90%" stopColor="#00c9ff" />
+    </linearGradient>
+  </defs>
+  
+</Wave>
+   
+  <ul className="f-content">
         <li>
           {" "}
           <a href="">
