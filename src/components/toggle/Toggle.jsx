@@ -19,7 +19,7 @@ export default function Toggle() {
       <div
     
         className="toggle-btn"
-        style={darkMode ? { left: "2px" } : { right: "2px" }}
+        style={darkMode ? { left: "0px" } : { right: "0px" }}
       ></div>
     </div>
   );

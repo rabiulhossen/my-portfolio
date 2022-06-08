@@ -14,12 +14,12 @@ export default function Testimonial() {
       review: "awesome",
     },
     {
-      name: "mahatir mohammed",
+      name: "ma mohammed",
       img:{pic},
       review: "awesome",
     },
     {
-      name: "mahatir mohammed",
+      name: "maher mohammed",
       img:{pic},
       review: "awesome",
     }

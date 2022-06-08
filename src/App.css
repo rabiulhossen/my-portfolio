@@ -11,6 +11,7 @@
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
+
 .App{
     padding: 0.5rem 3.5rem;
     overflow: hidden;
@@ -35,7 +36,7 @@
   }
   @media screen and (max-width: 480px) {
     .App {
-      padding: 0.5rem 1rem;
+      padding: 1rem 2rem;
 
     }
   }

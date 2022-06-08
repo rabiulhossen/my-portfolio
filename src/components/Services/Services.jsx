@@ -11,19 +11,19 @@ export default function Services() {
         <span>Services</span>
         <span>
           Lorem ipsum, dolor sit amet consectetur adipisicing <br />
-          elit. Iusto, fuga!
+          elit. Iusto, fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eos voluptatum ipsa culpa quia et?
         </span>
 
         <button className="button s-button">Download CV</button>
         <div className="blur"></div>
       </div>
-      <div className="card" style={{ left: "21rem",top:'-1rem' }}>
+      <div className="cards" style={{ left: "38rem",top:'0rem' }}>
         <Card pic={insta} heading={"Design"} detail={"Figma,Photoshop"} />
       </div>
-      <div className="card" style={{ top: "11rem", left: "-11rem" }}>
+      <div className="cards" style={{ top: "11rem", left: "-31rem" }}>
         <Card pic={insta} heading={"Design"} detail={"Figma,Photoshop"} />
       </div>
-      <div className="card" style={{ left: "-11rem", top: "22rem" }}>
+      <div className="cards" style={{ left: "-11rem", top: "22rem" }}>
         <Card pic={insta} heading={"Design"} detail={"Figma,Photoshop"} />
       </div>
     </div>

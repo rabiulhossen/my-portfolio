@@ -11,10 +11,14 @@ export default function Header() {
       </div>
       <div className="h-right">
         <div className="h-list">
+          <div className="toggler" 
+          style={{display:'none'}}
+          >bb</div>
           <ul>
             <li>Home</li>
             <li>About</li>
             <li>Portfolio</li>
+            <li>services</li>
             <li>resume</li>
           </ul>
         </div>

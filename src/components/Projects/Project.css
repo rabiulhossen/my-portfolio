@@ -29,3 +29,11 @@
 
 
 /* slider  */
+.project-slider{
+  width: 1200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+}

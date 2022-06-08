@@ -1,5 +1,6 @@
 import React from "react";
 import "./Works.css";
+import { motion } from "framer-motion"
 import github from "../../images/github.png";
 import insta from "../../images/instagram.png";
 import fb from "../../images/529-removebg-preview.png";
@@ -22,7 +23,12 @@ export default function Works() {
       </div>
 
       {/* right side  */}
-      <div className="w-works">
+      <motion.div className="w-works"
+       initial={{ rotate: 60 }}
+       whileInView={{ rotate: 0 }}
+       viewport={{ margin: "-40px" }}
+       transition={{ duration: 4.5, type: "spring" }}
+      >
         <div className="main-circle">
           <div className="sec-circle">
             <img src={insta} alt="" />
@@ -47,7 +53,7 @@ export default function Works() {
         </div>
         <div className="back-circle blueC"></div>
         <div className="back-circle yellowC"></div>
-      </div>
+      </motion.div>
     </div>
   );
 }
