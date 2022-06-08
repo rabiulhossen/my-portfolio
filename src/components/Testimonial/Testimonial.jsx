@@ -40,7 +40,7 @@ export default function Testimonial() {
       </div>
       <Swiper
       modules={[Pagination]}
-      sliderPerview={1}
+      sliderperview={1}
       pagination={{clickable:true}}
       
       >

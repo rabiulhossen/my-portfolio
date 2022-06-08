@@ -21,8 +21,8 @@ export default function Footer() {
   >
   <defs>
     <linearGradient id="gradient" gradientTransform="rotate(90)">
-      <stop offset="10%"  stopColor="#92fe9d" />
-      <stop offset="90%" stopColor="#00c9ff" />
+      <stop offset="30%"  stopColor="rgb(66, 247, 208)" />
+      <stop offset="90%" stopColor="#22C3F4" />
     </linearGradient>
   </defs>
   
