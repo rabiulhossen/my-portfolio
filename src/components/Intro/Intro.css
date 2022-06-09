@@ -89,10 +89,15 @@
   .intro{
     flex-direction: column;
     height:61rem;
-    gap: 0rem;
-    padding-left: 1rem;
+    gap: 2rem;
+    padding-left: 0rem;
     padding-right: 1rem;
    
+   
+  }
+  .intro-right{
+width: auto;
+margin-right: 3rem!important
   }
  
 }

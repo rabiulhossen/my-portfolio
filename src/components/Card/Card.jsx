@@ -6,9 +6,9 @@ export default function Card({pic,detail,heading}) {
    <div className="card">
 <img src={pic} alt="" />
 <span>{heading}</span>
-<span>{detail}</span>
-<button className='c-button'>Learn More</button>
+<span>{detail} with experience</span>
 
+<button className='c-button'>See More</button>
 
 
    </div>

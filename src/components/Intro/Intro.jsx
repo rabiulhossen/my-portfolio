@@ -26,7 +26,7 @@ export default function Intro() {
               "ReactJs Developer"],
                 autoStart: true,
                 loop: true,
-                pauseFor:2500,
+                pauseFor:2000,
                 cursor:[],
               }}
               

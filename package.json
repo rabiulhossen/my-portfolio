@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@iconscout/react-unicons": "^1.1.6",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -12,6 +13,7 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
+    "react-toastify": "^9.0.4",
     "react-wavify": "^1.5.7",
     "swiper": "^8.2.1",
     "typewriter-effect": "^2.18.2",

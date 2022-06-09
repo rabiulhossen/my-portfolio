@@ -1,19 +1,21 @@
 import React from "react";
 import "./Works.css";
 import { motion } from "framer-motion"
-import github from "../../images/github.png";
-import insta from "../../images/instagram.png";
-import fb from "../../images/529-removebg-preview.png";
+import atom from "../../images/atom.png";
+import js from "../../images/javascript.png";
+import html from "../../images/html-extension.png";
+import css from "../../images/css.png";
+import me from "../../images/programmer.png";
 
 export default function Works() {
   return (
     <div className="works">
       <div className="left-ser">
-        <span>My Awesome</span>
-        <span>Services</span>
+        <span>My Splendid</span>
+        <span>Linchpin</span>
         <span>
-          Lorem ipsum, dolor sit amet consectetur adipisicing <br />
-          elit. Iusto, fuga! <br />
+          My Favourite element for build a website<br />
+          elit. Iusto, fuga! 
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id,
           dignissimos.
         </span>
@@ -31,28 +33,32 @@ export default function Works() {
       >
         <div className="main-circle">
           <div className="sec-circle">
-            <img src={insta} alt="" />
+            <img src={atom} alt="" />
           </div>
 
           <div className="sec-circle">
-            <img src={github} alt="" />
+            <img src={js} alt="" />
           </div>
 
           <div className="sec-circle">
-            <img src={insta} alt="" />
+            <img src={html} alt="" style=
+            {{width:"64px"}}/>
           </div>
 
           <div className="sec-circle">
-            <img src={github} alt="" />
+            <img src={css} alt=""style=
+            {{width:"64px"}} />
           </div>
 
           <div className="sec-circle">
-            <img src={fb} style=
-            {{width:"70px"}} alt="" />
+            <img src={me} style=
+            {{width:"64px"}} alt="" />
           </div>
         </div>
         <div className="back-circle blueC"></div>
         <div className="back-circle yellowC"></div>
+        <div className="back-circle1 blueC1"></div>
+        <div className="back-circle1 yellowC2"></div>
       </motion.div>
     </div>
   );

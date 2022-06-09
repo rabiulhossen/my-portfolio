@@ -1,12 +1,14 @@
 import React from "react";
 import Card from "../Card/Card";
 import "./Services.css";
-import insta from "../../images/instagram.png";
+import server from "../../images/server.png";
+import design from "../../images/design.png";
+import res from "../../images/web-browser.png";
 
 export default function Services() {
   return (
     <div className="services">
-      <div className="left-ser">
+      <div className="left-service">
         <span>My Awesome</span>
         <span>Services</span>
         <span>
@@ -17,13 +19,13 @@ export default function Services() {
         <div className="blur"></div>
       </div>
       <div className="cards" style={{ left: "38rem",top:'0rem' }}>
-        <Card pic={insta} heading={"Design"} detail={"Figma,Photoshop"} />
+        <Card pic={design} heading={"UI Design"} detail={"Figma,Photoshop"} />
       </div>
       <div className="cards" style={{ top: "11rem", left: "-31rem" }}>
-        <Card pic={insta} heading={"Design"} detail={"Figma,Photoshop"} />
+        <Card pic={server} heading={"Server Side"} detail={"ExpressJs,Nodejs,Mongodb"} />
       </div>
       <div className="cards" style={{ left: "-11rem", top: "22rem" }}>
-        <Card pic={insta} heading={"Design"} detail={"Figma,Photoshop"} />
+        <Card pic={res} heading={"Responsive Design"} detail={"ReactJs,CSS3,TailwindCss,Bootstrap"} />
       </div>
     </div>
   );
