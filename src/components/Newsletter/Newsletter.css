@@ -37,6 +37,7 @@
  }
  
  .c-right .useri{
+     
      width: 20rem;
      height: 2rem;
      padding: 0.3em;
@@ -57,7 +58,7 @@
  }
  
  .c-blur1{
-     top: 1rem;
+     top: 0rem;
      left: 8rem;
  }
  

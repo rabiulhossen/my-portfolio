@@ -18,14 +18,16 @@ export default function Services() {
         <button className="button s-button">Hire Me</button>
         <div className="blur"></div>
       </div>
-      <div className="cards" style={{ left: "38rem",top:'0rem' }}>
+      <div className="cardgroup">
+      <div className="cards" style={{ left: "68rem",top:'43rem' }}>
         <Card pic={design} heading={"UI Design"} detail={"Figma,Photoshop"} />
       </div>
-      <div className="cards" style={{ top: "11rem", left: "-31rem" }}>
+      <div className="cards" style={{ top: "54rem", left: "49rem" }}>
         <Card pic={server} heading={"Server Side"} detail={"ExpressJs,Nodejs,Mongodb"} />
       </div>
-      <div className="cards" style={{ left: "-11rem", top: "22rem" }}>
+      <div className="cards" style={{ left: "73rem", top: "66rem" }}>
         <Card pic={res} heading={"Responsive Design"} detail={"ReactJs,CSS3,TailwindCss,Bootstrap"} />
+      </div>
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ export default function Project() {
       <span>portfolio</span>
       <div className="project-section">
         <Swiper
-          spaceBetween={50}
+          spaceBetween={20}
           slidesPerView={2}
           grabCursor={true}
           onSlideChange={() => console.log('slide change')}
@@ -25,6 +25,15 @@ export default function Project() {
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
         >
+          <SwiperSlide>
+            <img src={pic} style={{ height: "18rem",width:'500px' }} alt="" />
+            <h1>this is titlw</h1>
+            <p>technolgy bring to play</p>
+          <p>details about this prpjoct</p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={pic} style={{ height: "18rem",width:'500px' }} alt="" />
+          </SwiperSlide>
           <SwiperSlide>
             <img src={pic} style={{ height: "18rem",width:'500px' }} alt="" />
           </SwiperSlide>
