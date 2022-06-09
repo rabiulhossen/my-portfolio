@@ -15,6 +15,7 @@
         padding: 0 3rem 0 3rem;
         display: flex;
         height: 90vh;
+        gap: 3rem;
         margin-top: 8rem;
         justify-content: space-between;
         margin-bottom: 10rem;
@@ -40,14 +41,15 @@
 .left-ser >:nth-child(3){
      color: var(--gray)
      ;
-     font-size:16px;
-     font-weight: bold;
+     font-size:17px;
+     font-weight: 400;
      margin-top: 1rem;
 }
 .s-button{
      width: 12rem;
      height: 3rem;
-     font-weight: 600;
+     color: white;
+     font-weight:800;
      margin-top: 1.5rem;
 }
 

@@ -31,27 +31,27 @@ export default function Footer() {
   <ul className="f-content">
         <li>
           {" "}
-          <a href="">
+          <a href="https://www.instagram.com/rabiulhossen_01/">
             {" "}
             <Insta color="black" size="3rem" />
           </a>
         </li>
         <li>
           {" "}
-          <a href="">
+          <a href="https://web.facebook.com/muktadirr.evansimonn/">
             {" "}
             <Fb color="black" size="3rem" />
           </a>{" "}
         </li>
         <li>
           {" "}
-          <a href="">
+          <a href="https://github.com/rabiulhossen">
             <Github color="black" size="3rem" />
           </a>{" "}
         </li>
         <li>
           {" "}
-          <a href="">
+          <a href="https://twitter.com/RabiulH46448368">
             <Twi color="black" size="3rem" />
           </a>{" "}
         </li>

@@ -1,8 +1,10 @@
 .intro {
   display: flex;
-  height: 77vh;
+  height: 70vh;
   margin-top: 4rem;
-  gap: 2rem;
+  gap: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 .intro-left {
   display: flex;
@@ -28,8 +30,15 @@
   font-weight: bold;
 }
 .i-name > :nth-child(3) {
+  color: var(--orangeCard);
+  font-size: 2.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+.i-name > :nth-child(4) {
   font-weight: 200;
-  font-size: 15px;
+  font-size: 17px;
+  font-weight: 400;
   margin-top: 10px;
   color: var(--gray);
 }
@@ -53,21 +62,28 @@
      top: -10%;
 }
 .i-button {
-  width: 8rem;
-  height: 3rem;
-  font-weight: 600;
+  width: 9rem;
+  height: 2rem;
+ text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
 }
+
 .social-icons{
-     margin: 3rem;
+  margin-top: 1.rem;
+     
      display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 .social-icons>*{
-     transform: scale(0.7);
+     transform: scale(0.6);
 }
 .social-icons>*:hover{
      cursor: pointer
+     
      ;
+     transform: translateY(2px);
 }
 @media screen and (max-width:580px) {
   .intro{

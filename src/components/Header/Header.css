@@ -3,8 +3,8 @@
   display: flex;
   justify-content: space-between;
   text-transform: capitalize;
-margin-right: 2rem;
-  margin-left: 2rem;
+margin-right:3rem;
+  margin-left: 3rem;
 }
 .h-left {
   flex: 1;
@@ -28,7 +28,7 @@ margin-right: 2rem;
 .h-list {
   flex: 10;
 }
-.h-list > ul {
+.h-list > ul,li>a {
   display: flex;
   gap: 2rem;
   margin-right: 3rem;
@@ -39,6 +39,10 @@ margin-right: 2rem;
 }
 ul {
   list-style-type: none;
+}
+
+li>a:hover{
+  color: var(--orange);
 }
 .h-button {
   float: 1;

@@ -10,11 +10,10 @@ export default function Services() {
         <span>My Awesome</span>
         <span>Services</span>
         <span>
-          Lorem ipsum, dolor sit amet consectetur adipisicing <br />
-          elit. Iusto, fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eos voluptatum ipsa culpa quia et?
+        As a Web Developer, I provide  quality work for my clients. I create website, customize website and implement, try to  add unique feature for website. I am work with HTML5, CSS3, TailwindCSS, JavaScript, ExpressJs, NodeJS, Mongodb, most popular framework ReactJS and many more.
         </span>
 
-        <button className="button s-button">Download CV</button>
+        <button className="button s-button">Hire Me</button>
         <div className="blur"></div>
       </div>
       <div className="cards" style={{ left: "38rem",top:'0rem' }}>
