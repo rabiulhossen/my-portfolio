@@ -14,10 +14,8 @@ export default function Works() {
         <span>My Splendid</span>
         <span>Linchpin</span>
         <span>
-          My Favourite element for build a website<br />
-          elit. Iusto, fuga! 
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id,
-          dignissimos.
+          My Favourite element for build a website.<br />
+        These tools help me to create a enterprise website from scratch. I try to utilize properly  these element for optimize performance.
         </span>
 
         <button className="button s-button">Hire me</button>

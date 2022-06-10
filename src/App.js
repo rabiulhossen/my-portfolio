@@ -10,13 +10,16 @@ import Testimonial from './components/Testimonial/Testimonial';
 import Newsletter from './components/Newsletter/Newsletter';
 import Footer from './components/Footer/Footer';
 import {themeContext} from './components/toggle/Context'
+import { Route, Routes } from 'react-router-dom';
+import About from './components/About/About';
+import Blog from './components/Blog/Blog';
 
 function App() {
   const theme = useContext(themeContext);
   console.log(theme);
   const darkMode = theme.state.darkMode;
   return (
-    <div
+    <div id='/'
     style={{
       background:darkMode? "black":'',
       color :darkMode? "white":''
@@ -29,8 +32,12 @@ function App() {
 <Services />
 <Works />
 <Project />
-<Testimonial />
+{/* <Testimonial /> */}
 <Newsletter />
+<Routes>
+<Route path='about' element={<About/>} />
+<Route path='blog' element={<Blog/>}/>
+</Routes>
 <Footer/>
 
     </div>

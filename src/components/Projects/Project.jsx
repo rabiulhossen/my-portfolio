@@ -26,23 +26,27 @@ export default function Project() {
           scrollbar={{ draggable: true }}
         >
           <SwiperSlide>
-            <img src={pic} style={{ height: "18rem",width:'500px' }} alt="" />
-            <h1>this is titlw</h1>
-            <p>technolgy bring to play</p>
-          <p>details about this prpjoct</p>
+            <img src={pic} style={{ height: "18rem",width:'32rem' }} alt="" />
+            <h2>Computer Parts Manufacturer</h2>
+            <p>This is a MERN Stack Project</p>
+            <button className="button"><a href="">Live Site</a></button>
+
           </SwiperSlide>
           <SwiperSlide>
-            <img src={pic} style={{ height: "18rem",width:'500px' }} alt="" />
+            <img src={pic} style={{ height: "18rem",width:'32rem' }} alt="" />
+            <h2>Computer Parts Manufacturer</h2>
+            <p>This is a MERN Stack Project</p>
+            <button className="button"><a href="">Live Site</a></button>
+
           </SwiperSlide>
           <SwiperSlide>
-            <img src={pic} style={{ height: "18rem",width:'500px' }} alt="" />
+            <img src={pic} style={{ height: "18rem",width:'32rem' }} alt="" />
+            <h2>Computer Parts Manufacturer</h2>
+            <p>This is a MERN Stack Project</p>
+            <button className="button"><a href="">Live Site</a></button>
+
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={pic} style={{ height: "18rem",width:'500px' }} alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={pic} style={{ height: "18rem",width:'500px' }} alt="" />
-          </SwiperSlide>
+         
         </Swiper>
       </div>
     </div>

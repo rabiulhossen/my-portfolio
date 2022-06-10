@@ -28,7 +28,7 @@ margin-right:3rem;
 .h-list {
   flex: 10;
 }
-.h-list > ul,li>a {
+.h-list > ul {
   display: flex;
   gap: 2rem;
   margin-right: 3rem;
@@ -40,7 +40,11 @@ margin-right:3rem;
 ul {
   list-style-type: none;
 }
-
+li>a{
+  text-decoration: none;
+  font-weight: 700;
+  color:var(--black);
+}
 li>a:hover{
   color: var(--orange);
 }

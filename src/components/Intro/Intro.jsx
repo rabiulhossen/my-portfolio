@@ -7,11 +7,11 @@ import github from "../../../src/images/github.png";
 import facebook from '../../../src/images/529-removebg-preview.png'
 import rabiul from "../../../src/images/instagrajm.png";
 import insta from "../../../src/images/instagram.png";
-import bg from "../../../src/images/abtract-background-3.jpg";
+import bg from "../../../src/images/profile-pic (1).png";
 
 export default function Intro() {
   return (
-    <div className="intro">
+    <div className="intro" id="resume">
       <div className="intro-left">
         <div className="i-name">
           <span>Hey! I Am</span>
