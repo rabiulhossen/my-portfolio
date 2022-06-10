@@ -15,7 +15,8 @@ export default function Works() {
         <span>Linchpin</span>
         <span>
           My Favourite element for build a website.<br />
-        These tools help me to create a enterprise website from scratch. I try to utilize properly  these element for optimize performance.
+        These tools help me to create a enterprise website from scratch.   <br />
+         I try to utilize properly  these element for optimize performance.
         </span>
 
         <button className="button s-button">Hire me</button>
@@ -27,7 +28,7 @@ export default function Works() {
        initial={{ rotate: 60 }}
        whileInView={{ rotate: 0 }}
        viewport={{ margin: "-40px" }}
-       transition={{ duration: 4.5, type: "spring" }}
+       transition={{ duration: 5.5, type: "spring" }}
       >
         <div className="main-circle">
           <div className="sec-circle">

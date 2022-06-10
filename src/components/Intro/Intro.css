@@ -80,24 +80,22 @@
      transform: scale(0.6);
 }
 .social-icons>*:hover{
-     cursor: pointer
-     
-     ;
+     cursor: pointer;
      transform: translateY(2px);
 }
 @media screen and (max-width:580px) {
   .intro{
     flex-direction: column;
-    height:61rem;
-    gap: 2rem;
+    height:65rem;
+    column-gap: 2rem;
     padding-left: 0rem;
     padding-right: 1rem;
    
-   
+  
   }
-  .intro-right{
+  .intro-right>img{
 width: auto;
-margin-right: 3rem!important
+
   }
  
 }

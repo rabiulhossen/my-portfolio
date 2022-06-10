@@ -59,7 +59,7 @@ export default function Intro() {
       </div>
       <div className="intro-right"></div>
 
-      <img src={bg} style={{ width: "31rem", height: "28rem" }} alt="" />
+      <img src={bg} style={{ width: "29rem", height: "29rem" }} alt="" />
     </div>
   );
 }

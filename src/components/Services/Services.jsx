@@ -7,7 +7,7 @@ import res from "../../images/web-browser.png";
 
 export default function Services() {
   return (
-    <div className="services" id="#services">
+    <div className="services" id="services">
       <div className="left-service">
         <span>My Awesome</span>
         <span>Services</span>
@@ -15,7 +15,7 @@ export default function Services() {
         As a Web Developer, I provide  quality work for my clients. I create website, customize website and implement, try to  add unique feature for website. I am work with HTML5, CSS3, TailwindCSS, JavaScript, ExpressJs, NodeJS, Mongodb, most popular framework ReactJS and many more.
         </span>
 
-        <button className="button s-button">Hire Me</button>
+       <a href="www.linkedin.com/in/rabiulhossen"> <button className="button s-button">Hire Me</button> </a>
         <div className="blur"></div>
       </div>
       <div className="cardgroup">
