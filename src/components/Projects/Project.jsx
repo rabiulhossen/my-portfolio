@@ -10,8 +10,13 @@ import "swiper/css/scrollbar";
 import pic from "../../images/project1.png";
 import pic1 from "../../images/project2.png";
 import pic2 from "../../images/project3.png";
+import { useNavigate } from "react-router-dom";
 
 export default function Project() {
+  const navigate = useNavigate();
+  const details =()=>{
+    navigate("detailproject")
+  }
   return (
     <div className="project-name" id="project">
       <span>Recent Projects</span>
@@ -49,7 +54,7 @@ export default function Project() {
               {" "}
               <button className="button bb">Live Site</button>
             </a>
-            <button className="exp-b">Explore More</button>
+            <button className="exp-b" onClick={details}>Explore More</button>
           </SwiperSlide>
           <SwiperSlide>
             <img src={pic1} style={{ height: "18rem", width: "32rem" }} alt="" />
@@ -59,7 +64,7 @@ export default function Project() {
               {" "}
               <button className="button bb">Live Site</button>
             </a>
-            <button className="exp-b">Explore More</button>
+            <button className="exp-b" onClick={details}>Explore More</button>
           </SwiperSlide>
           <SwiperSlide>
             <img src={pic2} style={{ height: "18rem", width: "32rem" }} alt="" />
@@ -69,7 +74,7 @@ export default function Project() {
               {" "}
               <button className="button bb">Live Site</button>
             </a>
-            <button className="exp-b">Explore More</button>
+            <button className="exp-b" onClick={details}>Explore More</button>
           </SwiperSlide>
           <SwiperSlide>
             <img src={pic} style={{ height: "18rem", width: "32rem" }} alt="" />

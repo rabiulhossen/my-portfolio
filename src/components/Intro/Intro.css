@@ -83,7 +83,7 @@
      cursor: pointer;
      transform: translateY(2px);
 }
-@media screen and (max-width:580px) {
+@media screen and (max-width:780px) {
   .intro{
     flex-direction: column;
     height:65rem;

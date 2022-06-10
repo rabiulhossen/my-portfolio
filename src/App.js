@@ -13,6 +13,8 @@ import {themeContext} from './components/toggle/Context'
 import { Route, Routes } from 'react-router-dom';
 import About from './components/About/About';
 import Blog from './components/Blog/Blog';
+import Home from './components/Home/Home';
+import DetailProject from './components/DetailProject/DetailProject';
 
 function App() {
   const theme = useContext(themeContext);
@@ -28,14 +30,17 @@ function App() {
     >
 
 <Header />
-<Intro />
-<Services />
-<Works />
-<Project />
+
 {/* <Testimonial /> */}
-<Newsletter />
-<Blog/>
-<About />
+<Routes>
+  <Route path='/' element={<Home />} />
+  <Route path='home' element={<Home />} />
+  <Route path='blog' element={<Blog/>} />
+  <Route path='about' element={<About />} />
+  <Route path='detailproject' element={<DetailProject />} />
+</Routes>
+
+
 <Footer/>
 
     </div>

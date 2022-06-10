@@ -54,7 +54,7 @@
      position: absolute;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 780px) {
   .services {
    margin-top: 8rem;
     flex-direction: column;

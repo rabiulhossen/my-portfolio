@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 import { themeContext } from "../toggle/Context";
 import Toggle from "../toggle/Toggle";
@@ -77,7 +77,7 @@ export default function Header() {
             <Link
                 style={{ color: darkMode ? "white" : "" }}
                 activeClass="active"
-                to="services"
+                to="/"
                 spy={true}
                 smooth={true}
                 hashSpy={true}
@@ -93,7 +93,7 @@ export default function Header() {
               <Link
                 style={{ color: darkMode ? "white" : "" }}
                 activeClass="active"
-                to="project"
+                to="/"
                 spy={true}
                 smooth={true}
                 hashSpy={true}

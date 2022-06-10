@@ -7,7 +7,7 @@ import res from "../../images/web-browser.png";
 
 export default function Services() {
   return (
-    <div className="services" id="services">
+    <div className="services" id="#services">
       <div className="left-service">
         <span>My Awesome</span>
         <span>Services</span>
