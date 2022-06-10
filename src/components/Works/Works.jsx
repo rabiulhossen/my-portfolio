@@ -12,7 +12,7 @@ export default function Works() {
     <div className="works">
       <div className="left-ser">
         <span>My Splendid</span>
-        <span>Linchpin</span>
+        <span>Element</span>
         <span>
           My Favourite element for build a website.<br />
         These tools help me to create a enterprise website from scratch.   <br />
@@ -25,10 +25,10 @@ export default function Works() {
 
       {/* right side  */}
       <motion.div className="w-works"
-       initial={{ rotate: 60 }}
+       initial={{ rotate: -180}}
        whileInView={{ rotate: 0 }}
-       viewport={{ margin: "-40px" }}
-       transition={{ duration: 5.5, type: "spring" }}
+       viewport={{ margin: "-80px" }}
+       transition={{ duration: 2, repeat: Infinity, type: "spring" }}
       >
         <div className="main-circle">
           <div className="sec-circle">

@@ -33,7 +33,7 @@ export default function Intro() {
             />
           </span>
           <span>
-          I am a positive, enthusiastic and competent Web Developer who, has built up a diverse range of skills, qualities and attributes that guarantee I will perform highly in this role.I assure you I will suitable person for your next project to improve quality and maintain optimized perform.Currently, I am developing my skills as a MERN Stack Developer in consistently to provide awesome services  to my clients.Above all, I am passionate about coding field and technology.
+          I am a positive, enthusiastic and competent Web Developer who, has built up a diverse range of skills, qualities and attributes. 
           </span>
         </div>
       <a className="button i-button" href="https://drive.google.com/file/d/1oIkmfDf16FR3gYvDYOunX4iCXHe9g9m_/view?usp=sharing" style={{textDecoration:'none'}}>See Resume</a>

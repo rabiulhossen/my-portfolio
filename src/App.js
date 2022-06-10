@@ -34,10 +34,8 @@ function App() {
 <Project />
 {/* <Testimonial /> */}
 <Newsletter />
-<Routes>
-<Route path='about' element={<About/>} />
-<Route path='blog' element={<Blog/>}/>
-</Routes>
+<Blog/>
+<About />
 <Footer/>
 
     </div>

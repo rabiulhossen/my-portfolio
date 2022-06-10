@@ -13,9 +13,10 @@
 .services {
   padding: 0 3rem 0 3rem;
   display: flex;
-  min-height: 100vh;
+  min-height: 70vh;
+  align-items: flex-start;
   gap: 2rem;
-  margin-top: 8rem;
+  margin-top: 12rem;
   justify-content: space-between;
   margin-bottom: 10rem;
 }
@@ -55,9 +56,9 @@
 
 @media screen and (max-width: 680px) {
   .services {
-   
+   margin-top: 8rem;
     flex-direction: column;
-    height: 80rem;
+    height: 90rem;
   }
   .left-service {
     flex-direction: column;
@@ -65,9 +66,13 @@
     width: auto;
   }
   .cardgroup{
+    margin-top: 5rem;
        display: flex;
        flex-direction: column;
-       gap: 2rem;
-       width: auto;
+       gap: 3rem;
+    
+  }
+  .cardgroup>*{
+    position: static;
   }
 }

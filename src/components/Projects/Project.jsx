@@ -2,21 +2,40 @@ import React from "react";
 import "./Project.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Navigation, Pagination, Scrollbar } from "swiper";
+import { Navigation,Pagination, Scrollbar } from "swiper";
 import "swiper/css/navigation";
+import 'swiper/css/pagination';
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import pic from "../../images/abtract-background-3.jpg";
+import pic from "../../images/project1.png";
+import pic1 from "../../images/project2.png";
+import pic2 from "../../images/project3.png";
 
 export default function Project() {
   return (
-    <div className="project-name">
+    <div className="project-name" id="project">
       <span>Recent Projects</span>
       <span>portfolio</span>
       <div className="project-section">
         <Swiper
-          spaceBetween={40}
-          slidesPerView={2}
+        breakpoints={{
+         
+          640: {
+            width: 680,
+            slidesPerView: 1,
+          },
+          
+          768: {
+            width: 768,
+            slidesPerView: 1,
+          },
+          1280: {
+            width: 1280,
+            slidesPerView: 2,
+          },
+        }}
+          spaceBetween={50}
+         
           grabCursor={true}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
@@ -24,7 +43,7 @@ export default function Project() {
         >
           <SwiperSlide>
             <img src={pic} style={{ height: "18rem", width: "32rem" }} alt="" />
-            <h2>Computer Parts Manufacturer</h2>
+            <h2>Apple Nationwide Distributor</h2>
             <p>This is a MERN Stack Project</p>
             <a href="https://meek-treacle-5beccb.netlify.app/">
               {" "}
@@ -33,7 +52,7 @@ export default function Project() {
             <button className="exp-b">Explore More</button>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={pic} style={{ height: "18rem", width: "32rem" }} alt="" />
+            <img src={pic1} style={{ height: "18rem", width: "32rem" }} alt="" />
             <h2>Computer Parts Manufacturer</h2>
             <p>This is a MERN Stack Project</p>
             <a href="https://apple-nationwide-distributor.web.app/">
@@ -43,8 +62,8 @@ export default function Project() {
             <button className="exp-b">Explore More</button>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={pic} style={{ height: "18rem", width: "32rem" }} alt="" />
-            <h2>Computer Parts Manufacturer</h2>
+            <img src={pic2} style={{ height: "18rem", width: "32rem" }} alt="" />
+            <h2>Exoplanet Photography</h2>
             <p>This is a MERN Stack Project</p>
             <a href="https://meek-treacle-5beccb.netlify.app/">
               {" "}

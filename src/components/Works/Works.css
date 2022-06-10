@@ -1,7 +1,7 @@
 .works {
   padding: 0 4rem ;
   display: flex;
-height: 30rem;
+height: 20rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
@@ -136,13 +136,13 @@ margin-right: 10rem;
   right: -8rem;
   top: -56.5rem;
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 680px) {
   .works {
     display: flex;
     flex-direction: column;
-    margin-top:40rem;
+    margin-top:35rem;
     gap: 4rem;
-   min-height:100vh;
+   height:50rem;
     align-items: center;
     justify-content: center;
   }
