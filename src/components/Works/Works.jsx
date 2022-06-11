@@ -19,8 +19,8 @@ export default function Works() {
          I try to utilize properly  these element for optimize performance.
         </span>
 
-        <button className="button s-button">Hire me</button>
-        <div className="l-blur"></div>
+        <button className="button s-button">Contact me</button>
+        <div className="blur"></div>
       </div>
 
       {/* right side  */}
@@ -28,7 +28,8 @@ export default function Works() {
        initial={{ rotate: -180}}
        whileInView={{ rotate: 0 }}
        viewport={{ margin: "-80px" }}
-       transition={{ duration: 2, repeat: Infinity, type: "spring" }}
+     
+       transition={{ duration: 4, repeat: Infinity, type: "spring" ,delay:0}}
       >
         <div className="main-circle">
           <div className="sec-circle">

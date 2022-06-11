@@ -27,7 +27,7 @@ export default function Intro() {
                 autoStart: true,
                 loop: true,
                 pauseFor:2000,
-                cursor:[],
+                cursor:["."],
               }}
               
             />
@@ -52,7 +52,7 @@ export default function Intro() {
           </a>
           <a href="https://www.instagram.com/rabiulhossen_01/">
             {" "}
-            <img src={insta}style={{ width: "90px" }} alt="" />
+            <img src={insta}style={{ width: "88px" }} alt="" />
           </a>
         
         </div>

@@ -21,7 +21,7 @@ export default function Services() {
 
         <a href="www.linkedin.com/in/rabiulhossen">
           {" "}
-          <button className="button s-button">Hire Me</button>{" "}
+          <button className="button s-button">Contact Me</button>{" "}
         </a>
         <div className="blur"></div>
       </div>

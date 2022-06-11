@@ -53,9 +53,10 @@ li>a:hover{
 }
 
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 680px){
   .h-list{
     display: none;
+   
    
   }
   .toggler{

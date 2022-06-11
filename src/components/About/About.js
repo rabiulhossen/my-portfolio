@@ -3,8 +3,13 @@ import "./About.css";
 import rabiul from "../../images/profile-pic (1).png";
 
 export default function About() {
+
+
   return (
+    
      <div className="about"  id="about">
+          
+
     <div className="intro">
       <div className="intro-left">
         <div className="i-name">

@@ -3,20 +3,20 @@
      display: flex;
      height: 50vh;
      margin-top: 4rem;
-  
-   padding-top: 3rem;
+  justify-content: center;
+   padding-top: 2rem;
  }
  .awesome>span:nth-child(1){
      color: var(--yellow);
-     font-size: 2.7rem;
+     font-size: 2.9rem;
      font-weight: 700;
-     margin-left: 1rem;
+     margin-left: 3rem;
  }
  .awesome>span:nth-child(3){
      color: var(--black);
-     font-size: 2rem;
+     font-size: 2.2rem;
      font-weight: 600;
-     margin-left: 1rem;
+     margin-left: 3rem;
 
  }
  
@@ -56,7 +56,7 @@
      color:var(--black);
     font-size: larger;
     font-weight: 600;
-     padding: 1rem 3rem;
+     padding: 1rem 4rem;
  }
  
  .c-blur1{
@@ -68,7 +68,7 @@
      .contact-form{
          padding: 0;
          flex-direction: column;
-         gap: 5rem;
+         gap: 4rem;
          height: 40rem;
      }
      .w-left{

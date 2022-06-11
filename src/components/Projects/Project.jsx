@@ -25,14 +25,14 @@ export default function Project() {
         <Swiper
         breakpoints={{
          
-          640: {
-            width: 680,
-            slidesPerView: 1,
-          },
           
           768: {
             width: 768,
             slidesPerView: 1,
+          },
+          920: {
+            width:928,
+            slidesPerView: 2,
           },
           1280: {
             width: 1280,
@@ -70,7 +70,7 @@ export default function Project() {
             <img src={pic2} style={{ height: "18rem", width: "32rem" }} alt="" />
             <h2>Exoplanet Photography</h2>
             <p>This is a MERN Stack Project</p>
-            <a href="https://meek-treacle-5beccb.netlify.app/">
+            <a href="https://exoplanet-photography.web.app/">
               {" "}
               <button className="button bb">Live Site</button>
             </a>
