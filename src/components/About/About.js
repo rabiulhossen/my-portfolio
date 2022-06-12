@@ -10,8 +10,8 @@ export default function About() {
      <div className="about"  id="about">
           
 
-    <div className="intro">
-      <div className="intro-left">
+    <div className="intro" >
+      <div className="intro-left" >
         <div className="i-name">
           <span>Hey! I Am</span>
 
@@ -29,7 +29,7 @@ export default function About() {
           </span>
         </div>
       </div>
-      <div className="intro-right"></div>
+      <div className="intro-right" id="aa"></div>
 
       <img src={rabiul} style={{ width: "29rem", height: "29rem" }} alt="" />
     </div>

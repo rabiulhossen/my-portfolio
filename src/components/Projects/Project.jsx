@@ -26,12 +26,12 @@ export default function Project() {
         breakpoints={{
          
           
-          768: {
+          780: {
             width: 768,
             slidesPerView: 1,
           },
-          920: {
-            width:928,
+          980: {
+            width:980,
             slidesPerView: 2,
           },
           1280: {
@@ -39,7 +39,7 @@ export default function Project() {
             slidesPerView: 2,
           },
         }}
-          spaceBetween={50}
+          spaceBetween={30}
          
           grabCursor={true}
           onSlideChange={() => console.log("slide change")}
@@ -47,9 +47,9 @@ export default function Project() {
           className="project-slider"
         >
           <SwiperSlide>
-            <img src={pic} style={{ height: "18rem", width: "32rem" }} alt="" />
+            <img src={pic} style={{ height: "18rem", width: "31rem" }} alt="" />
             <h2>Apple Nationwide Distributor</h2>
-            <p>This is a MERN Stack Project</p>
+            <p>This is a MERN Stack Project about ware house.</p>
             <a href="https://meek-treacle-5beccb.netlify.app/">
               {" "}
               <button className="button bb">Live Site</button>
@@ -57,9 +57,9 @@ export default function Project() {
             <button className="exp-b" onClick={details}>Explore More</button>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={pic1} style={{ height: "18rem", width: "32rem" }} alt="" />
+            <img src={pic1} style={{ height: "18rem", width: "31rem" }} alt="" />
             <h2>Computer Parts Manufacturer</h2>
-            <p>This is a MERN Stack Project</p>
+            <p>This is a MERN Stack Project about computer parts manufacturer company.</p>
             <a href="https://apple-nationwide-distributor.web.app/">
               {" "}
               <button className="button bb">Live Site</button>
@@ -67,9 +67,9 @@ export default function Project() {
             <button className="exp-b" onClick={details}>Explore More</button>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={pic2} style={{ height: "18rem", width: "32rem" }} alt="" />
+            <img src={pic2} style={{ height: "18rem", width: "31rem" }} alt="" />
             <h2>Exoplanet Photography</h2>
-            <p>This is a MERN Stack Project</p>
+            <p>This is a astrophotography website for interested people.</p>
             <a href="https://exoplanet-photography.web.app/">
               {" "}
               <button className="button bb">Live Site</button>
@@ -77,9 +77,9 @@ export default function Project() {
             <button className="exp-b" onClick={details}>Explore More</button>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={pic} style={{ height: "18rem", width: "32rem" }} alt="" />
+            <img src={pic} style={{ height: "18rem", width: "31rem" }} alt="" />
             <h2>Computer Parts Manufacturer</h2>
-            <p>This is a MERN Stack Project</p>
+            <p>This is a MERN Stack Project about computer parts manufacturer company.</p>
             <a href="https://meek-treacle-5beccb.netlify.app/">
               {" "}
               <button className="button bb">Live Site</button>

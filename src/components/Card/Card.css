@@ -53,10 +53,12 @@ padding: 0 1rem;
      color: var(--black);
 }
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 780px){
      .card{
           width: auto;
        margin-top: 2rem;
+     margin-left: auto;
+     margin-right: auto;
      }
 
      .card span:nth-child(3){
