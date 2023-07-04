@@ -6,7 +6,7 @@ import Intro from './components/Intro/Intro';
 import Services from './components/Services/Services';
 import Works from './components/Works/Works';
 import Project from './components/Projects/Project';
-import Testimonial from './components/Testimonial/Testimonial';
+
 import Newsletter from './components/Newsletter/Newsletter';
 import Footer from './components/Footer/Footer';
 import {themeContext} from './components/toggle/Context'
@@ -18,7 +18,7 @@ import DetailProject from './components/DetailProject/DetailProject';
 
 function App() {
   const theme = useContext(themeContext);
-  console.log(theme);
+  
   const darkMode = theme.state.darkMode;
   return (
     <div id='/'
@@ -31,7 +31,6 @@ function App() {
 
 <Header />
 
-{/* <Testimonial /> */}
 <Routes>
   <Route path='/' element={<Home />} />
   <Route path='home' element={<Home />} />
@@ -39,7 +38,6 @@ function App() {
   <Route path='about' element={<About />} />
   <Route path='detailproject' element={<DetailProject />} />
 </Routes>
-
 
 <Footer/>
 
