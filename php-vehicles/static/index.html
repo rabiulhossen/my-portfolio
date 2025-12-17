@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Management System - Car Dealership</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚗 Vehicle Management System</h1>
+            <p class="subtitle">Car Dealership Fleet Management</p>
+        </header>
+
+        <!-- Vehicle Counter -->
+        <div class="stats-bar">
+            <div class="stat">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Total Vehicles in System</span>
+            </div>
+        </div>
+
+        <!-- Add New Vehicle Form -->
+        <section class="form-section">
+            <h2>📝 Add New Vehicle</h2>
+            
+                        
+            <form method="POST" action="" id="vehicleForm">
+                <div class="form-group">
+                    <label for="vehicle_type">Vehicle Type *</label>
+                    <select name="vehicle_type" id="vehicle_type" required onchange="toggleUniqueFields()">
+                        <option value="">-- Select Type --</option>
+                        <option value="car">🚗 Car</option>
+                        <option value="truck">🚚 Truck</option>
+                        <option value="motorcycle">🏍️ Motorcycle</option>
+                    </select>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="brand">Brand *</label>
+                        <input type="text" name="brand" id="brand" required placeholder="e.g., Toyota, Ford">
+                    </div>
+                    <div class="form-group">
+                        <label for="model">Model *</label>
+                        <input type="text" name="model" id="model" required placeholder="e.g., Camry, F-150">
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="year">Year *</label>
+                        <input type="number" name="year" id="year" required min="1900" max="2030" placeholder="e.g., 2024">
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Price ($) *</label>
+                        <input type="number" name="price" id="price" required min="0" step="0.01" placeholder="e.g., 25999.99">
+                    </div>
+                </div>
+                
+                <!-- Car-specific field -->
+                <div class="form-group unique-field" id="car_fields" style="display: none;">
+                    <label for="number_of_doors">Number of Doors</label>
+                    <select name="number_of_doors" id="number_of_doors">
+                        <option value="2">2 Doors (Coupe)</option>
+                        <option value="3">3 Doors (Hatchback)</option>
+                        <option value="4" selected>4 Doors (Sedan)</option>
+                        <option value="5">5 Doors (SUV/Wagon)</option>
+                    </select>
+                </div>
+                
+                <!-- Truck-specific field -->
+                <div class="form-group unique-field" id="truck_fields" style="display: none;">
+                    <label for="cargo_capacity">Cargo Capacity (tons)</label>
+                    <input type="number" name="cargo_capacity" id="cargo_capacity" min="0" max="50" step="0.1" placeholder="e.g., 3.5">
+                </div>
+                
+                <!-- Motorcycle-specific field -->
+                <div class="form-group unique-field" id="motorcycle_fields" style="display: none;">
+                    <label for="handlebar_type">Handlebar Type</label>
+                    <select name="handlebar_type" id="handlebar_type">
+                                                    <option value="Standard">Standard (upright riding position)</option>
+                                                    <option value="Clip-on">Clip-on (sport bike, aggressive lean)</option>
+                                                    <option value="Ape Hanger">Ape Hanger (high, cruiser style)</option>
+                                                    <option value="Drag Bar">Drag Bar (low, straight)</option>
+                                                    <option value="Beach Bar">Beach Bar (wide, swept back)</option>
+                                                    <option value="Clubman">Clubman (café racer style)</option>
+                                            </select>
+                </div>
+                
+                <button type="submit" name="add_vehicle" class="submit-btn">Add Vehicle</button>
+            </form>
+        </section>
+
+        <!-- Display All Vehicles -->
+        <section class="vehicles-section">
+            <h2>🏪 Dealership Inventory</h2>
+            <p class="section-description">Below are all vehicles currently in our system, demonstrating inheritance and method overriding:</p>
+            
+            <div class="vehicles-grid">
+                                    <div class='vehicle-info car'>
+            <div class='vehicle-icon'>🚗</div>
+            <h3>Toyota Camry</h3>
+            <span class='vehicle-type'>Car</span>
+            <div class='vehicle-details'>
+                <p><strong>Year:</strong> 2023</p>
+                <p><strong>Price:</strong> $28,999.99</p>
+                <p class='unique-property'><strong>Number of Doors:</strong> 4</p>
+            </div>
+        </div>                                    <div class='vehicle-info truck'>
+            <div class='vehicle-icon'>🚚</div>
+            <h3>Ford F-150</h3>
+            <span class='vehicle-type'>Truck</span>
+            <div class='vehicle-details'>
+                <p><strong>Year:</strong> 2024</p>
+                <p><strong>Price:</strong> $45,999.99</p>
+                <p class='unique-property'><strong>Cargo Capacity:</strong> 3.5 tons</p>
+            </div>
+        </div>                                    <div class='vehicle-info motorcycle'>
+            <div class='vehicle-icon'>🏍️</div>
+            <h3>Harley-Davidson Street 750</h3>
+            <span class='vehicle-type'>Motorcycle</span>
+            <div class='vehicle-details'>
+                <p><strong>Year:</strong> 2023</p>
+                <p><strong>Price:</strong> $8,999.99</p>
+                <p class='unique-property'><strong>Handlebar Type:</strong> Standard</p>
+            </div>
+        </div>                            </div>
+        </section>
+
+        <!-- Vehicle Comparison Demo -->
+        <section class="comparison-section">
+            <h2>📊 Vehicle Comparison Demo</h2>
+            <p class="section-description">Demonstrating the compare() method from the base Vehicle class:</p>
+            
+            <div class="comparison-results">
+                <h3>Price Comparison:</h3>
+                <p class='comparison'>📊 <strong>Toyota Camry</strong> ($28,999.99) has a lower price than <strong>Ford F-150</strong> ($45,999.99)</p>                <p class='comparison'>📊 <strong>Toyota Camry</strong> ($28,999.99) has a higher price than <strong>Harley-Davidson Street 750</strong> ($8,999.99)</p>                <p class='comparison'>📊 <strong>Ford F-150</strong> ($45,999.99) has a higher price than <strong>Harley-Davidson Street 750</strong> ($8,999.99)</p>                
+                <h3>Year Comparison:</h3>
+                <p class='comparison'>📊 <strong>Toyota Camry</strong> (2023) has a lower year than <strong>Ford F-150</strong> (2024)</p>                <p class='comparison'>📊 <strong>Toyota Camry</strong> and <strong>Harley-Davidson Street 750</strong> have the same year (2023)</p>            </div>
+        </section>
+
+        <!-- Technical Information -->
+        <section class="info-section">
+            <h2>ℹ️ Technical Implementation</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Base Class: Vehicle</h3>
+                    <ul>
+                        <li>Properties: $brand, $model, $year, $price</li>
+                        <li>Static property: $totalVehicles (counts instances)</li>
+                        <li>Methods: displayInfo(), compare(), getComparisonResult()</li>
+                        <li>Getters and setters for all properties</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>Subclass: Car</h3>
+                    <ul>
+                        <li>Extends Vehicle</li>
+                        <li>Unique property: $numberOfDoors</li>
+                        <li>Overrides displayInfo() method</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>Subclass: Truck</h3>
+                    <ul>
+                        <li>Extends Vehicle</li>
+                        <li>Unique property: $cargoCapacity</li>
+                        <li>Overrides displayInfo() method</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>Subclass: Motorcycle</h3>
+                    <ul>
+                        <li>Extends Vehicle</li>
+                        <li>Unique property: $handlebarType</li>
+                        <li>Overrides displayInfo() method</li>
+                        <li>Includes HANDLEBAR_TYPES constant</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Vehicle Management System &copy; 2025 - Demonstrating OOP in PHP</p>
+        </footer>
+    </div>
+
+    <script>
+        // Toggle visibility of unique fields based on vehicle type selection
+        function toggleUniqueFields() {
+            const vehicleType = document.getElementById('vehicle_type').value;
+            const allUniqueFields = document.querySelectorAll('.unique-field');
+            
+            // Hide all unique fields first
+            allUniqueFields.forEach(field => {
+                field.style.display = 'none';
+            });
+            
+            // Show the relevant field based on selection
+            if (vehicleType === 'car') {
+                document.getElementById('car_fields').style.display = 'block';
+            } else if (vehicleType === 'truck') {
+                document.getElementById('truck_fields').style.display = 'block';
+            } else if (vehicleType === 'motorcycle') {
+                document.getElementById('motorcycle_fields').style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
