@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: vehicle-management-system
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    autoDeploy: true
